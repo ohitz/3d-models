@@ -3,6 +3,8 @@
 Drilled bars for extending a Theo Klein Toys Bosch Toolbox.
 The number of drilled holes can be configured.
 
+Published on Thingiverse: https://www.thingiverse.com/thing:3697677
+
 ## Images
 
 See a printed 3-hole and 5-hole bar along with an original 4-hole bar:
