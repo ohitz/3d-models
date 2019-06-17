@@ -1,19 +1,19 @@
-TARGETS		= 2-hole-bar.stl \
-		  3-hole-bar.stl \
-		  4-hole-bar.stl \
-		  5-hole-bar.stl
+TARGETS			= bar-2-holes.stl \
+			  bar-3-holes.stl \
+			  bar-4-holes.stl \
+			  bar-5-holes.stl
 
-all:		$(TARGETS)
+all:			$(TARGETS)
 
-2-hole-bar.stl:	bar.scad
-		openscad -D holes=2 -o $@ $<
+bar-2-holes.stl:	bar.scad
+			openscad -D holes=2 -o $@ $<
 
-3-hole-bar.stl:	bar.scad
-		openscad -D holes=3 -o $@ $<
+bar-3-holes.stl:	bar.scad
+			openscad -D holes=3 -o $@ $<
 
-4-hole-bar.stl:	bar.scad
-		openscad -D holes=4 -o $@ $<
+bar-4-holes.stl:	bar.scad
+			openscad -D holes=4 -o $@ $<
 
-5-hole-bar.stl:	bar.scad
-		openscad -D holes=5 -o $@ $<
+bar-5-holes.stl:	bar.scad
+			openscad -D holes=5 -o $@ $<
 
